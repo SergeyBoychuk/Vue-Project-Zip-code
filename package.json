@@ -1,0 +1,44 @@
+{
+  "name": "sergeyboychuk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipkova/frontend-starter.git"
+  },
+  "author": "Sergey Boychuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillipkova/frontend-starter/issues"
+  },
+  "homepage": "https://github.com/phillipkova/frontend-starter#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "connect": "^3.5.0",
+    "deployment": "^0.2.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "is-expression": "^3.0.0",
+    "jshint": "^2.9.3",
+    "opn": "^4.0.2",
+    "pug": "^2.0.0-beta6"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  }
+}

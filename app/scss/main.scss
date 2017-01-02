@@ -1,0 +1,26 @@
+// utilities
+@import 'utilities/mixins';
+
+// vendor
+@import 'variables';
+@import 'vendor/bootstrap';
+
+// layout
+@import 'layout/sections';
+@import 'layout/backgrounds';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/showcase';
+
+// partials
+@import 'partials/buttons';
+@import 'partials/forms';
+@import 'partials/images';
+@import 'partials/tables';
+@import 'partials/typography';
+@import 'partials/icons';
+@import 'partials/lists';
+@import 'partials/modal';
+@import 'partials/navs';
+@import 'partials/swiper';
+@import 'partials/tabs';

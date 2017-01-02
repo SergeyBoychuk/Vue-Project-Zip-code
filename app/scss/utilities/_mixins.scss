@@ -1,0 +1,38 @@
+// Media Queries
+@mixin mq($point, $width:'') {
+ @if $point == large-desktop-up {
+   @media (min-width: 1200px) { @content; }
+ }
+ @if $point == desktop-up {
+   @media (min-width: 992px) { @content; }
+ }
+ @if $point == desktop-only {
+   @media (min-width: 992px) and (max-width: 1199px) { @content; }
+ }
+ @else if $point == tablet-up {
+   @media (min-width: 768px) { @content; }
+ }
+ @else if $point == tablet-only {
+   @media (min-width: 768px) and (max-width: 991px) { @content; }
+ }
+ @else if $point == mobile-only {
+   @media (max-width: 767px) { @content; }
+ }
+ @else if $point == custom-min {
+   @media screen and (min-width: $width)  { @content; }
+ }
+ @else if $point == custom-max {
+   @media screen and (max-width: $width)  { @content; }
+ }
+}
+
+
+@include mq(tablet-up) {
+ // 768+
+}
+@include mq(desktop-up) {
+ // 992+
+}
+@include mq(large-desktop-up) {
+ // 1200+
+}
